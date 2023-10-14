@@ -7,3 +7,39 @@
     --my-bg-fizzbuzz: #F0466F;
 }        
     
+.container {
+    width: 100vh;
+    margin-top: 30px;
+    
+  }
+
+  
+  
+  .box {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background-color: var(--my-bg-secondary);
+  }
+    
+  body{
+    background-color: var(--my-bg-primary);
+    color: white;
+  }  
+  
+  
+  .ColFizzBuzz {
+    background-color: var(--my-bg-fizzbuzz);
+    
+  }
+  
+  .ColBuzz {
+    background-color: var(--my-bg-buzz);
+  }
+  
+  .ColFizz {
+    background-color: var(--my-bg-fizz);
+    
+  }
+  
+  
