@@ -32,7 +32,9 @@ for (let i = 1; i <= 100; i++) {
     box.classList.add('ColBuzz');
     box.append('Buzz');
 
-
+//restante dei numeri 
+} else {
+    box.append(i);
    
   }
 
