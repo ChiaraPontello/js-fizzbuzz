@@ -14,6 +14,15 @@ for (let i = 1; i <= 100; i++) {
 //collegamento tra boxes e box
   boxes.append(box);
   
+  //i numeri  sia multipli di 3 che di 5  “FizzBuzz” usando la classe append()
+  if (i % 15 === 0) {
+    
+    box.classList.add('ColFizzbuzz');
+    box.append('FizzBuzz');
+
+   
+   
+  }
+
   
-  
-};
+}
